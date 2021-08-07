@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    height: 69px;
+}
+header p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+header p img{
+    height: 50px;
+    width: auto;
+    position: absolute;
+}
+header nav{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav a{
+    margin: 0 5px;
+    color: seashell;
+}
+section{
+    text-align: center;
+    
+}
+#mission{
+    padding: 69px 0;
+}
+.firstSection{
+    display: flex;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid seashell;
+}
+.firstSection h2{
+    margin: 10px 0 25px 0;
+}
+.firstSection h4{
+    margin-bottom: 15px;
+}
+#missionContainer{
+    background-color: black;
+}
+.secondSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1000px;
+}
+.description h4{
+    padding: 0;
+    margin-bottom: 10px;
+}
+.gallery{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery figure{
+    margin: 10px;
+}
+.gallery figure img{
+    width: 300px;
+    height: 200px;
+}
+
+.thirdSection{
+    height: 500px;
+    width: 1200px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+.addresses {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.address{
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    margin: 0 20px;
+}
+.topfooter{
+    width: 100%;
+    display: flex;
+}
+.info{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.info h2{
+    padding-top: 10px;
+    margin: 0 auto;
+}
+.info h5{
+    margin: 10px auto;
+}
+#copyright{
+    margin-left: 20px;
+}
+
+
+
+
